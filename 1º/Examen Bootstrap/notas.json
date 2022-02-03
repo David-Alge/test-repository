@@ -1,0 +1,35 @@
+{
+    "todoOK": true,
+    "asignatura": "INFORMATICA",
+    "tipoAsignatura": "optativa",
+    "calificaciones": [
+        {
+            "id": "1",
+            "nombre": "Obama",
+            "urlFoto": "img/obama.jpg",
+            "nota": "1",
+            "comentario": "Muy mal"
+        },
+        {
+            "id": "2",
+            "nombre": "Jackie Chan",
+            "urlFoto": "img/jackie-chan.jpg",
+            "nota": "7",
+            "comentario": "En general, bastante bien"
+        },
+        {
+            "id": "3",
+            "nombre": "Sr Clean",
+            "urlFoto": "img/Sir-clean-l.png",
+            "nota": "4",
+            "comentario": "Casi aprueba pero le faltó una actividad"
+        },
+        {
+            "id": "4",
+            "nombre": "Freddy Mercury",
+            "urlFoto": "img/matador.jpg",
+            "nota": "2",
+            "comentario": "No ha venido a clase casi nunca"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    height:20vh;
+    background-color: red;
+    color: white;
+}
+
+header h1{
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    height:10vh;
+    background-color: red;
+    color: white;
+}
+
+section{
+    min-height: 70vh;
+    border: solid black 1vh;
+    padding: 1vh;
+}
+
+section div{
+    width: 18%;
+    min-height:200px;
+    color: white;
+    margin: 1vh;
+}
+
+.centrado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+
+header > div{
+    width: 60%;
+
+}

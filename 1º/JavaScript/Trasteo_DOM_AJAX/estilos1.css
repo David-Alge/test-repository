@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    height: 100%;
+	overflow: hidden;
+}
+
+body{
+	
+	font-size:calc(7px + 0.45vw);
+	
+}
+
+.cabecera{
+    background-color: black;
+    color:white;
+    height: 10%;
+    text-align:center;
+    position: relative;
+}
+
+.cabecera h1, .cabecera h2{
+    width: 75%;
+    height: 50%;
+    border: solid white 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.principal{
+    border:solid green 5px;
+    height: 90%;
+    padding:1%;
+}
+
+.principal div{
+    border: solid black 1px;
+    margin: 2vw;
+    padding: 1vw;
+    height: 20%;
+}
+

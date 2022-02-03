@@ -1,0 +1,12 @@
+[
+	{
+		"id": 1,
+		"nombre": "Quijote",
+		"texto": "En un lugar de la mancha..."
+	},
+	{
+		"id": 2,
+		"nombre": "Cuento clásico",
+		"texto": "Érase una vez..."
+	}
+]

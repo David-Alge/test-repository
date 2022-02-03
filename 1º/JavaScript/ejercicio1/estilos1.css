@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    height: 100%;
+	overflow: hidden;
+}
+
+body{
+	
+	font-size:calc(7px + 0.45vw);
+	
+}
+
+.cabecera{
+    background-color: black;
+    color:white;
+    height: 10%;
+    text-align:center;
+    position: relative;
+}
+
+.cabecera h1, .cabecera h2{
+    width: 75%;
+    height: 50%;
+    border: solid white 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.principal{
+    border:solid green 5px;
+    height: 90%;
+    padding:1%;
+	display: flex;
+	justify-content: center;
+    -webkit-align-items: center;
+}
+
+.parte{
+    border: solid red 2px;
+    height: 100%;
+    padding:1%;
+}
+
+.izquierda{
+	width: 10%;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+}
+
+.izquierda article{
+	margin-top: 10%;
+}
+
+.izquierda li{
+	margin-left: 15px;
+}
+
+.izquierda li:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.derecha{
+	overflow: auto;
+	width: 90%;
+	margin-left: 1%;
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.derecha .capaDibujante{
+	border:solid green 1px;
+	width: 46%;
+	text-align:center;
+	margin: 1%;
+	position:relative;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;	
+}
+
+.derecha .capaDibujante img{
+	width: 100%;
+}
+
+.invisible{
+	visibility: hidden;
+}

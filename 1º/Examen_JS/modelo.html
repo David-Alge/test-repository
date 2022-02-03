@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Examen Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="scripts/myScript.js"></script>
+</head>
+
+<body onload="cargarDatos();">
+	<header class="container-md p-3 border bg-dark bg-lg-primary text-white">
+		<div class="row">
+			<h1 class="col-lg-8 display-4 border">Examen JS - AJAX</h1>
+		</div>
+	</header>
+	<main class="container my-3">
+		<section class="row" id="principal">
+
+			<article class="card col-12 col-sm-6">
+				<img class="card-img-top" src="imagenes/avengers.png" alt="Vengadores 1">
+				<div class="card-body">
+					<h4 class="card-title">Vengadores</h4>
+					<p class="card-text">Se juntan todos por primera vez para pelear con Loki</p>
+					<a href="https://www.imdb.com/title/tt0848228/" class="btn btn-primary">+ info</a>
+				</div>
+			</article>
+
+			<article class="card col-12 col-sm-6">
+				<img class="card-img-top" src="imagenes/avengersII.png" alt="Vengadores 2">
+				<div class="card-body">
+					<h4 class="card-title">Vengadores - Era de ultron</h4>
+					<p class="card-text">Ultron hace estragos en Sokovia</p>
+					<a href="https://www.imdb.com/title/tt2395427/" class="btn btn-primary">+ info</a>
+				</div>
+			</article>
+
+			<article class="card col-12 col-sm-6">
+				<img class="card-img-top" src="imagenes/avengersIII.jpg" alt="Vengadores 3">
+				<div class="card-body">
+					<h4 class="card-title">Vengadores - Infinity War</h4>
+					<p class="card-text">Thanos quiere las 5 gemas del infinito</p>
+					<a href="https://www.imdb.com/title/tt4154756/" class="btn btn-primary">+ info</a>
+				</div>
+			</article>
+
+			<article class="card col-12 col-sm-6">
+				<img class="card-img-top" src="imagenes/avengersIV.jpg" alt="Vengadores 4">
+				<div class="card-body">
+					<h4 class="card-title">Vengadores - Endgame</h4>
+					<p class="card-text">Todos contra Thanos otra vez</p>
+					<a href="https://www.imdb.com/title/tt4154796/" class="btn btn-primary">+ info</a>
+				</div>
+			</article>
+
+		</section>
+	</main>
+	<footer class="container-sm my-3 p-3 bg-dark text-white">
+		<div class="row d-flex flex-wrap align-content-around">
+			<p class="col text-center m-0" id="whoami">
+				By Alumno
+			</p>
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+	"todoOK": true,
+	"dibujantes":[
+			{
+				"id": 1,
+				"nombre":"Ricardo",
+				"ultimo":"https://e00-elmundo.uecdn.es/papel/2008/01/30/Library/humor2.gif"
+			},
+			{
+				"id": 2,
+				"nombre":"Gallego y Rey",
+				"ultimo":"https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2018/01/18/15163052593983.jpg"	
+			},
+			{
+				"id": 3,
+				"nombre":"El Roto",
+				"todos":"http://elpais.com/autor/el_roto/a/",
+				"ultimo":"https://ep01.epimg.net/elpais/imagenes/2019/06/03/opinion/1559569387_447317_1559569849_noticia_normal_recorte1.jpg"
+			},
+			{
+				"id": 4,
+				"nombre":"Forges",
+				"todos":"http://elpais.com/autor/antonio_fraguas_forges/a/",
+				"ultimo":"https://ep01.epimg.net/elpais/imagenes/2018/02/22/opinion/1519311908_815651_1519319236_noticia_normal_recorte1.jpg"
+			}
+		]
+}
+
+

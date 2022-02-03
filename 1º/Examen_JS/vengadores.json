@@ -1,0 +1,33 @@
+{
+    "todoOK": true,
+    "peliculas":[
+        {
+            "id": 1,
+            "titulo": "Vengadores",
+            "sinopsis": "Se juntan todos por primera vez para pelear con Loki",
+            "cartel": "imagenes/avengers.png",
+            "imdb": "https://www.imdb.com/title/tt0848228/"
+        },
+        {
+            "id": 2,
+            "titulo": "Vengadores - Era de ultron",
+            "sinopsis": "Ultron hace estragos en Sokovia",
+            "cartel": "imagenes/avengersII.png",
+            "imdb": "https://www.imdb.com/title/tt2395427/"
+        },
+        {
+            "id": 3,
+            "titulo": "Vengadores - Infinity War",
+            "sinopsis": "Thanos quiere las 5 gemas del infinito",
+            "cartel": "imagenes/avengersIII.jpg",
+            "imdb": "https://www.imdb.com/title/tt4154756/"
+        },
+        {
+            "id": 4,
+            "titulo": "Vengadores - Endgame",
+            "sinopsis": "Todos contra Thanos otra vez",
+            "cartel": "imagenes/avengersIV.jpg",
+            "imdb": "https://www.imdb.com/title/tt4154796/"
+        }
+    ]
+}

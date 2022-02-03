@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "nombre": "Madrid",
+        "pais":"ESP",
+        "poblacion":4000000,
+        "distrito": "Comunidad de Madrid"
+    }
+]

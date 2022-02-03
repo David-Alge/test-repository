@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "nulshock";
+    src: url("../fonts/nulshock.ttf") format("truetype");
+}
+
+/*  SECTION NAVBAR  */
+
+.navbar {
+    /*background-color: #40514e !important;*/
+    background-color: #f5f5f5 !important;
+    z-index: 100;
+    padding: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+}
+
+nav {
+    min-height: 70px !important;
+}
+
+.navbar-brand {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.navbar-toggler-icon {
+    color: #000000;
+    border: 0;
+}
+
+.navbar-toggler {
+    color: #000000;
+    border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    color: #000000;
+    border: 0;
+}
+
+/*  END SECTION NAVBAR  */
+
+/*  SECTION HEADER  */
+
+/*  OPTION PARTICLES  */
+#particles-js {
+    z-index: 990;
+    min-height: 100%;
+    background-color: #40514e;
+}
+
+.particles-js-canvas-el {
+    width: 100% !important;
+    height: 100vh !important;
+    z-index: 999;
+}
+
+/* OPTION 1 BLUR */
+
+.header {
+    height: 100vh;
+    background: #000;
+}
+
+.header .bg-image {
+    background: url(../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    filter: blur(6px);
+}
+
+/* END OPTION 1 BLUR */
+
+/* OPCION 1 OPACITY
+
+.header{
+    height: 90vh;
+    background: #40514e;
+}
+
+.header .bg-image{
+    background:url(../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    filter: opacity(0.2);
+}
+
+/* FIN OPCION 2 OPACITY */
+
+
+.header #titleHeader {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-family: "nulshock"
+}
+
+/*  SECTION SERVICES  */
+.services {
+    min-height: 60vh;
+}
+
+.services .items {
+    height: 100%;
+}
+
+.services .item {
+    height: 100%;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.services .item .logo {
+    color: #000000;
+    padding: 20px;
+    font-size: 2.5rem;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: #40514e;
+    margin: auto;
+}
+
+.services hr {
+    border: 1px solid #000000;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/*  END SECTION WE SERVICES  */
+
+/*  SECTION CONTACT US  */
+.contact .parallax-window {
+    min-height: 70vh;
+    background: transparent;
+}
+
+.contact #textContact {
+    color: #fff;
+}
+
+#textContact h2 {
+    font-size: 3rem;
+}
+
+#textContact h4 {
+    font-size: 1.5rem;
+}
+
+/*  END SECTION CONTACT US  */
+
+/* SECTION DE CHARLY PARA EL FOOTER */
+footer {
+    min-height: 10vh;
+    background: #1d1d1d;
+    color: #fafafa;
+}
+
+footer a,
+footer a:hover {
+    color: #fafafa;
+}
+
+footer hr {
+    border: 1px solid #fafafa;
+}
+
+footer a i {
+    font-size: 2.5rem;
+}
+
+/* END SECTION DE CHARLY */
+/*  STYLES  */
+
+.pointer {
+    cursor: pointer;
+}
+
+.btn-primary {
+    border: 0;
+    background-color: #30e3ca;
+    color: #000;
+}
+
+.btn-primary:hover {
+    border: 0;
+    background-color: #40514e;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
